@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start"></ion-menu-button>
+    <ion-title>Cadastro tags</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form ngForm="fc" (ngSubmit) = "onSubmit()">
+  <ion-item>
+    <ion-label position="floating">Tag</ion-label>
+    <ion-input type="text" name="tag" [(ngModel)] = "tag.tag"></ion-input>
+  </ion-item>
+
+  <ion-button type="submit" color="primary">Salvar</ion-button>
+    <ion-button color="danger" routerLink="/criartag">Voltar</ion-button>
+  </form>
+
+</ion-content>

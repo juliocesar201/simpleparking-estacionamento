@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "julio-5da91": {
+      "hosting": {
+        "app": [
+          "julio-5da91"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "julio-5da91"
+  }
+}
